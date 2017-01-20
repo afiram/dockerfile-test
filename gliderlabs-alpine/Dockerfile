@@ -1,4 +1,4 @@
 # FROM alpine:3.5
 FROM gliderlabs/alpine
 
-RUN echo "hello docker"
+RUN time apk --no-cache add gcc
